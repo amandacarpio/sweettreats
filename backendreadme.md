@@ -16,6 +16,7 @@ Sweet Treats is an online site where customer is able to order any customized de
 |Name|Data Type|
 |----|----|
 |id| Serial |
+| Dessert Name | varchar(50)
 | Allergies | varchar(50)|
 | Dessert Details | varchar(250) |
 | Email | varchar(50)|
