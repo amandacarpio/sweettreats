@@ -20,7 +20,7 @@ from selections.views import SelectionsViewSet
 
 #CREATING A NEW ROUTER
 router = routers.DefaultRouter()
-router.register(r'selections', SelectionsViewSet)
+router.register(r'treat', SelectionsViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
